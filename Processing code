@@ -130,7 +130,7 @@ void draw () {
       //    println (i, can[i].name);
     }  
     //    println(level_cnt);
-    if (millis() - timer > 10000) {
+    if (millis() - timer > 100000) {
       level_over = true;
     }
     if (level_cnt == 15) {
