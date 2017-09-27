@@ -67,7 +67,7 @@ void draw () {
   case 0:   
     background (244, 130, 36);
     text ("Black Smog", 16, 40);
-    text ("Push the button to let the little black \nsmog leap over the obstacles.\nYou will lose 1 point everytime the \nsmog hit an obstacle. \nAfter 10 times, you will lose the game.\nGood luck!", 73, 86);
+    text ("Push the button to let the little black \nsmog leap over the obstacles.\nYou will lose 1 point every time the \nsmog hit an obstacle. \nAfter 10 times, you will lose the game.\nGood luck!", 73, 86);
     noStroke();
     Start.update ();
 
