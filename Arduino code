@@ -1,0 +1,23 @@
+int buttonPin = 2;
+bool pressed = false;
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(buttonPin, INPUT_PULLUP);
+}
+
+void loop(){
+
+  if(digitalRead(buttonPin) == HIGH){
+    if(!pressed){
+      Serial.print(0);  
+    }
+    pressed = true;
+  }else{
+    if(pressed){
+      Serial.print(1);  
+    }
+    pressed = false;
+  }
+
+}
